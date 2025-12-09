@@ -4,8 +4,6 @@
 
 A cloud-native sentiment analysis system that helps toy companies identify which products to keep producing and which ones might be ready for retirement by analyzing Amazon review data beyond simple star ratings.
 
-![AWS Architecture](images/architecture.png)
-
 ## 📋 Project Overview
 
 For decades, toy companies have created thousands of memories for children. With Christmas around the corner, companies need to understand which toys to keep producing and which ones might be ready for retirement. Star ratings alone don't always reflect how customers truly feel about products.
@@ -28,11 +26,9 @@ The system leverages multiple AWS services following the Well-Architected Framew
 | **RDS** | PostgreSQL database for processed review data |
 | **VPC** | Network isolation with Security Groups for EC2, Lambda, and RDS |
 
-### Data Flow
+### Cloud Architecture
 ```
-Amazon Reviews (JSON) → S3 → Lambda (ETL) → EC2 (Processing) → RDS (Storage)
-                                              ↓
-                              EC2 (Flask Dashboard + ML Inference)
+![AWS Architecture](Cloud Architecture.png)
 ```
 
 ## 🤖 Machine Learning Model
