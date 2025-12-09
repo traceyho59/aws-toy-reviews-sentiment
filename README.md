@@ -24,9 +24,7 @@ The system leverages multiple AWS services following the Well-Architected Framew
 | **RDS** | PostgreSQL database for processed review data |
 | **VPC** | Network isolation with Security Groups for EC2, Lambda, and RDS |
 
-```
 ![Cloud Architecture](Cloud%20Architecture.png)
-```
 
 ## 🤖 Machine Learning Model
 
