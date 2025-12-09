@@ -28,7 +28,7 @@ The system leverages multiple AWS services following the Well-Architected Framew
 
 ### Cloud Architecture
 ```
-![AWS Architecture](Cloud Architecture.png)
+![Cloud Architecture](aws-toy-reviews-sentiment/Cloud Architecture.png)
 ```
 
 ## 🤖 Machine Learning Model
