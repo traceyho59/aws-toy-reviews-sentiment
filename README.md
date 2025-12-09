@@ -168,6 +168,10 @@ Development costs over one month using AWS Learner Lab:
 - **VPC Isolation**: All resources deployed within the same VPC
 - **Stateless Inference**: No user data stored; predictions are ephemeral
 
+## 🎥 Dashboard Demo
+
+[![Watch Demo](https://img.youtube.com/vi/aKcdbwgMGl0/hqdefault.jpg)](https://youtu.be/aKcdbwgMGl0)
+
 ## 👥 Team
 
 | Member | Responsibilities |
