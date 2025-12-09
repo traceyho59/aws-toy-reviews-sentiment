@@ -1,7 +1,5 @@
 # 🎁 The Best Gift: Toy Reviews Sentiment Analysis
 
-**Columbia University APAN5450 Cloud Computing | Fall 2025**
-
 A cloud-native sentiment analysis system that helps toy companies identify which products to keep producing and which ones might be ready for retirement by analyzing Amazon review data beyond simple star ratings.
 
 ## 📋 Project Overview
@@ -26,9 +24,8 @@ The system leverages multiple AWS services following the Well-Architected Framew
 | **RDS** | PostgreSQL database for processed review data |
 | **VPC** | Network isolation with Security Groups for EC2, Lambda, and RDS |
 
-### Cloud Architecture
 ```
-![Cloud Architecture](aws-toy-reviews-sentiment/Cloud Architecture.png)
+![Cloud Architecture](Cloud%20Architecture.png)
 ```
 
 ## 🤖 Machine Learning Model
